@@ -34,7 +34,6 @@ assets
 /tmp
 
 # Customs folder
-Makefile
 Docker.md
 *.env*
 .air*
