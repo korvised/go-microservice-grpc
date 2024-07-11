@@ -7,6 +7,8 @@ import (
 )
 
 func doSum(c pb.CalculatorServiceClient) {
+	log.Printf("doSum function was invoked")
+
 	// Sum
 	sumRequest := &pb.SumRequest{
 		A: 3,
